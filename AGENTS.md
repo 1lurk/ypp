@@ -31,3 +31,5 @@ use the editor.
 
 ## Project conventions
 - Keep confirmed product copy in `src/content/yap.ts`, separate from presentation, so visual changes do not invent product claims.
+- Read public GitHub release and commit data directly in the hydrated browser through TanStack Query; refresh every five minutes and link to GitHub on failure, avoiding credentials and unnecessary server infrastructure.
+- Derive the main installer from the newest non-draft, non-prerelease GitHub release; never silently offer an older installer as current.
