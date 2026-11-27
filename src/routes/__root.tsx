@@ -82,13 +82,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         name: "description",
         content:
-          "Yap++ is the upgrade your group chat has been compiling toward. Unlimited yap buffer, zero-latency hot takes, type-safe takes.",
+          "Yap++ is a client for Yapin', allowed by Antic, the owner of Yapin'.",
       },
       { name: "author", content: "Yap++" },
       { property: "og:title", content: "Yap++ — for Yapin'" },
       {
         property: "og:description",
-        content: "Increment your yap. Post-increment your regrets. Yap++ is the standard for Yapin'.",
+        content: "Yap++ is a client for Yapin', allowed by Antic, the owner of Yapin'.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

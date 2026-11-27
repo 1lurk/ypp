@@ -28,3 +28,6 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## Project conventions
+- Keep confirmed product copy in `src/content/yap.ts`, separate from presentation, so visual changes do not invent product claims.
