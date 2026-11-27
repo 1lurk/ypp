@@ -29,7 +29,7 @@ export const faq = [
   },
   {
     q: "Where do the downloads come from?",
-    a: "Downloads go straight to the project's GitHub releases. This page checks for new releases and development activity every five minutes while open.",
+    a: "These downloads are directly from GitHub. This page checks for new releases and updates every 5 minutes.",
   },
   {
     q: "What about other platforms?",
